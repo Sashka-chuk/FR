@@ -103,7 +103,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "Распознавание лиц"))
         MainWindow.setWindowIcon(QtGui.QIcon('icon2.png'))
         self.textEdit.setPlaceholderText(
-            _translate("MainWindow", "Нажмите на кнопку 'Открыть' и загрузите 5 и более фотографий в папку."))
+            _translate("MainWindow", "Нажмите на кнопку 'Открыть' и добавьте 5 и более фотографий в папку."))
         self.textEdit_2.setPlaceholderText(_translate("MainWindow", "Введите имя"))
         self.pushButton.setText(_translate("MainWindow", "Запустить"))
         self.pushButton.clicked.connect(self.detect)
